@@ -1,0 +1,83 @@
+img.imgclass{
+    width: 25%;
+    height: 20%;
+    margin-right: 0%;
+    display: block;
+    
+}
+.navbar.bg-darkown{
+    background-color: darkblue;
+}
+.jumbotron{
+    text-align: center;
+    background-color: #66FCF1;
+    
+    
+}
+.nav-bag{
+    background-color: #0B0C10;
+}
+.Heading-style{
+    margin: auto;
+    display: block;
+}
+h5.header-style{
+
+
+    color: black;
+}
+.sectionlight{
+    background-color: white;
+    padding: 2rem;
+}
+img.card-img{
+    height: 400px;
+}
+h5.card-title{
+    color: black;
+}
+.sectiondark{
+    background-color: #1F2833;
+    padding: 2rem;
+}
+
+.carousel-control-prev-icon{
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: black;
+    outline: black;
+}
+.carousel-control-next-icon{
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: black;
+    outline: black;
+}
+
+
+
+.slideanim {
+    visibility:hidden;
+    
+    visibility:visible\9;/*For old IE browsers IE6-8 */
+}
+.slideanim.slide {                  
+    visibility: visible;                  
+    animation: slide 2s;
+}
+.slideanim::after {
+    /* useful when its child elements are float:left; */
+    content: "";
+    display: table;
+    clear: both;
+}
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    } 
+}
